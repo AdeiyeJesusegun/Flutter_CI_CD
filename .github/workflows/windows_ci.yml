@@ -19,7 +19,6 @@ jobs:
             channel: 'stable' # 'dev', 'alpha', default to: 'stable'
             # flutter-version: '1.12.x' # you can also specify exact version of flutter
 
-        - run: flutter doctor -v
         - run: flutter clean
         - run: flutter pub get
         - run: flutter format .

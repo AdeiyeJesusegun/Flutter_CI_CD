@@ -24,7 +24,6 @@ jobs:
             sudo apt-get update
             sudo apt-get install -y libgtk-3-dev libx11-dev pkg-config cmake ninja-build libblkid-dev liblzma-dev
 
-        - run: flutter doctor -v
         - run: flutter clean
         - run: flutter pub get
         - run: flutter format .
