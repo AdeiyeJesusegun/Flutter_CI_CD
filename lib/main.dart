@@ -47,7 +47,7 @@ class _QuizPageState extends State<QuizPage> {
                       '${quizBrain.correctAns} out of ${quizBrain.questionBank}'),
                 ),
                 title: "Game Ended",
-                desc: "You scored")
+                desc: "You had a score of ")
             .show();
         quizBrain.reset();
         scoreKeeper = [];
